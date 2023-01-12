@@ -8,7 +8,7 @@ class Upload
     {
         $this->file = $file;
         $this->path = $path;
-        $this->mimeTypes = ['image/gif', 'image/jpeg', 'image/png',];
+        $this->mimeTypes = ['image/gif', 'image/jpeg', 'image/png'];
         $this->maxSize = 2097152;
     }
 
