@@ -28,7 +28,7 @@ class Upload
     private function rename($file)
     {
         $ex = explode('.', $file['name']);
-        $name = $this->generateHash('image_') . '.' . end($ex);
+        $name = $this->generateHash() . '.' . end($ex);
 
         return $name;
     }
